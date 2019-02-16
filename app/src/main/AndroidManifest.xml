@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".GroupViewActivity" />
-        <activity android:name=".GroupView2Activity"></activity>
+        <activity android:name=".GroupView2Activity" />
+        <activity android:name=".DrawingActivity"></activity>
     </application>
 
 </manifest>

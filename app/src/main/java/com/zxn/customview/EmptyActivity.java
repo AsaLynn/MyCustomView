@@ -18,7 +18,7 @@ public class EmptyActivity extends AppCompatActivity {
         x.view().inject(this);
     }
 
-    @Event(value = {R.id.btn1, R.id.btn2,R.id.btn3})
+    @Event(value = {R.id.btn1, R.id.btn2,R.id.btn3,R.id.btn4})
     private void onButton(View view) {
         switch (view.getId()) {
             case R.id.btn1:
@@ -30,6 +30,9 @@ public class EmptyActivity extends AppCompatActivity {
                 break;
             case R.id.btn3:
                 startActivity(new Intent(this,GroupView2Activity.class));
+                break;
+            case R.id.btn4:
+                startActivity(new Intent(this,DrawingActivity.class));
                 break;
         }
     }
